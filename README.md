@@ -61,7 +61,7 @@ public class SomeClass
   }
   public void PublicMethod()
   {
-    //do something
+    this.privateMethod(); //use the 'this' keyword, when calling methods an instance object
   }
 }
 ```
@@ -69,6 +69,17 @@ public class SomeClass
 ###CSS
 - Open bracket ends a previous line
 - Close bracket has its own line
+
+```css
+.class { /* opening brackets end the selector line */
+  color: #EEE; /* use short color codes */
+  background-color: #333; /* only one attribute per line */
+} /* close brackets get their own line */
+
+.class a { /* add more specific selectors below */
+  color: #FFF; 
+}
+```
 
 
 
