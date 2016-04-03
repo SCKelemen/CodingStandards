@@ -9,7 +9,7 @@ don't fuck up
 ##variables
 + PublicVariable
 + privateVariable
-+ _internalVariable
++ \_internalVariable
 
 
 ##Don't
