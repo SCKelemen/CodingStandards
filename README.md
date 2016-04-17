@@ -80,6 +80,8 @@ public class SomeClass
   color: #FFF; 
 }
 ```
+###Javascript
+Don't use Javascript
 
 
 
